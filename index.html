@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="row container">
+      <a href="#" class="logo">Zimbali</a>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+      <nav class="navigation row">
+        <ul class="row">
+          <li><a href="#flower">Flowers</a></li>
+          <li><a href="#plant">Plants</a></li>
+          <li><a href="#pot">Pots</a></li>
+          <li><a href="#">Fertilizers</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="10" cy="20.5" r="1" />
+                <circle cx="18" cy="20.5" r="1" />
+                <path
+                  d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--end navigation-->
+    <!--hero section-->
+    <section class="hero-bg">
+      <div class="hero row container">
+        <div class="hero-content">
+          <h1><span>Flowers</span> are more than words.</h1>
+          <p>Send flowers and exclusive gifts.</p>
+          <a href="#flower" class="page-btn">Discover flowers</a>
+        </div>
+      </div>
+    </section>
+    <!--end hero sction-->
+    <!--products-->
+    <section class="product" id="plant">
+      <div class="container">
+        <h2><span>Products</span> we have:</h2>
+        <div class="swiper mySwiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="s-img row">
+                <img src="186662973_l_normal_none.png" alt="pot plant" />
+              </div>
+              <div class="price row">
+                <h3>Srelitizia nicolai</h3>
+                <h3>R200</h3>
+              </div>
+              <div class="order row">
+                <div>
+                  <h5>Pot color</h5>
+                  <div class="row">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                  </div>
+                </div>
+                <a href="#" class="page-btn active">Buy now</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="s-img row">
+                <img
+                  src="faux-watermelon-peperomia-plant-gray-pot.jpg"
+                  alt="pot plant"
+                />
+              </div>
+              <div class="price row">
+                <h3>Ribber fig</h3>
+                <h3>R250</h3>
+              </div>
+              <div class="order row">
+                <div>
+                  <h5>Pot color</h5>
+                  <div class="row">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                  </div>
+                </div>
+                <a href="#" class="page-btn active">Buy now</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="s-img row">
+                <img src="fiddle-leaf-fig-plant-pot.jpg" alt="pot plant" />
+              </div>
+              <div class="price row">
+                <h3>Swiss cheese</h3>
+                <h3>R300</h3>
+              </div>
+              <div class="order row">
+                <div>
+                  <h5>Pot color</h5>
+                  <div class="row">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                  </div>
+                </div>
+                <a href="#" class="page-btn active">Buy now</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="s-img row">
+                <img
+                  src="small-cacti-with-white-wall-background.jpg"
+                  alt="pot plant"
+                />
+              </div>
+              <div class="price row">
+                <h3>Areca palm</h3>
+                <h3>R350</h3>
+              </div>
+              <div class="order row">
+                <div>
+                  <h5>Pot color</h5>
+                  <div class="row">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                  </div>
+                </div>
+                <a href="#" class="page-btn active">Buy now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    <!--end products-->
+    <!--service-->
+    <section class="service">
+      <div class="container">
+        <h2>We provide <span>services</span> on :</h2>
+        <div class="cards column grid">
+          <a href="#" class="s-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>thumb-up-outline</title>
+              <path
+                d="M5,9V21H1V9H5M9,21A2,2 0 0,1 7,19V9C7,8.45 7.22,7.95 7.59,7.59L14.17,1L15.23,2.06C15.5,2.33 15.67,2.7 15.67,3.11L15.64,3.43L14.69,8H21C22.11,8 23,8.9 23,10V12C23,12.26 22.95,12.5 22.86,12.73L19.84,19.78C19.54,20.5 18.83,21 18,21H9M9,19H18.03L21,12V10H12.21L13.34,4.68L9,9.03V19Z"
+              />
+            </svg>
+            <h3>Best wishes</h3>
+          </a>
+          <a href="#" class="s-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>flower-tulip</title>
+              <path
+                d="M3,13A9,9 0 0,0 12,22A9,9 0 0,0 3,13M12,22A9,9 0 0,0 21,13A9,9 0 0,0 12,22M18,3V8A6,6 0 0,1 12,14A6,6 0 0,1 6,8V3C6.74,3 7.47,3.12 8.16,3.39C8.71,3.62 9.2,3.96 9.61,4.39L12,2L14.39,4.39C14.8,3.96 15.29,3.62 15.84,3.39C16.53,3.12 17.26,3 18,3Z"
+              />
+            </svg>
+            <h3>Indoor plants</h3>
+          </a>
+          <a href="#" class="s-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>sprout-outline</title>
+              <path
+                d="M23,4.1V2.3L21.2,2.1C21.1,2.1 20.5,2 19.5,2C15.4,2 12.4,3.2 10.7,5.3C9.4,4.5 7.6,4 5.5,4C4.5,4 3.8,4.1 3.8,4.1L1.9,4.4L2,6.1C2.1,9.1 3.6,14.8 8.8,14.8C8.9,14.8 8.9,14.8 9,14.8V18.2C5.2,18.7 2,20 2,20V22H22V20C22,20 18.8,18.7 15,18.2V15C21.3,14.9 23,7.8 23,4.1M12,18C11.7,18 11.3,18 11,18V12.4C11,12.4 10.8,9 8,9C8,9 9.5,9.8 9.9,12.7C9.5,12.8 9.1,12.8 8.8,12.8C4.2,12.8 4,6.1 4,6.1C4,6.1 4.6,6 5.5,6C7.4,6 10.5,6.4 11.4,9.1C11.9,4.6 17,4 19.5,4C20.4,4 21,4.1 21,4.1C21,4.1 21,13.1 14.7,13.1C14.5,13.1 14.2,13.1 14,13.1C14,11.1 16,8.1 16,8.1C13,9.1 13,13 13,13V18C12.7,18 12.3,18 12,18Z"
+              />
+            </svg>
+            <h3>Outdoor plants</h3>
+          </a>
+          <a href="#" class="s-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>flower</title>
+              <path
+                d="M3,13A9,9 0 0,0 12,22C12,17 7.97,13 3,13M12,5.5A2.5,2.5 0 0,1 14.5,8A2.5,2.5 0 0,1 12,10.5A2.5,2.5 0 0,1 9.5,8A2.5,2.5 0 0,1 12,5.5M5.6,10.25A2.5,2.5 0 0,0 8.1,12.75C8.63,12.75 9.12,12.58 9.5,12.31C9.5,12.37 9.5,12.43 9.5,12.5A2.5,2.5 0 0,0 12,15A2.5,2.5 0 0,0 14.5,12.5C14.5,12.43 14.5,12.37 14.5,12.31C14.88,12.58 15.37,12.75 15.9,12.75C17.28,12.75 18.4,11.63 18.4,10.25C18.4,9.25 17.81,8.4 16.97,8C17.81,7.6 18.4,6.74 18.4,5.75C18.4,4.37 17.28,3.25 15.9,3.25C15.37,3.25 14.88,3.41 14.5,3.69C14.5,3.63 14.5,3.56 14.5,3.5A2.5,2.5 0 0,0 12,1A2.5,2.5 0 0,0 9.5,3.5C9.5,3.56 9.5,3.63 9.5,3.69C9.12,3.41 8.63,3.25 8.1,3.25A2.5,2.5 0 0,0 5.6,5.75C5.6,6.74 6.19,7.6 7.03,8C6.19,8.4 5.6,9.25 5.6,10.25M12,22A9,9 0 0,0 21,13C16,13 12,17 12,22Z"
+              />
+            </svg>
+            <h3>Flowers</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--end service-->
+    <!--search-->
+    <section class="search">
+      <div class="container">
+        <h2><span>What</span>are you looking for?</h2>
+        <div class="row">
+          <input type="search" placeholder="search what you need?" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#000000"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!--end search-->
+    <!--new arrival-->
+    <section class="arrival container" id="flower">
+      <div class="title row">
+        <div>
+          <h2><span>New</span>arrivals</h2>
+        </div>
+        <a href="#">View all</a>
+      </div>
+      <div class="cards column grid">
+        <a href="#" class="card">
+          <div class="row"><img src="carnation.jpg" alt="" /></div>
+          <div class="content row">
+            <div>
+              <h3>Carnation</h3>
+              <p>Know more</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <div class="row"><img src="sunflower.jpg" alt="" /></div>
+          <div class="content row">
+            <div>
+              <h3>Sunflower</h3>
+              <p>Know more</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <div class="row"><img src="yulan.jpg" alt="" /></div>
+          <div class="content row">
+            <div>
+              <h3>Yulan Magnolia</h3>
+              <p>Know more</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <div class="row"><img src="thunbergia.jpg" alt="" /></div>
+          <div class="content row">
+            <div>
+              <h3>Thunbergia</h3>
+              <p>Know more</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!--end new arrival-->
+    <!--Plant Stand-->
+    <section class="stand" id="pot">
+      <div class="container">
+        <h2>Plant <span>stands</span></h2>
+        <div class="cards column grid">
+          <div class="card">
+            <div class="row">
+              <img src="pexels-cottonbro-studio-4503273.jpg" alt="" />
+            </div>
+            <div class="content row">
+              <a href="#" class="page-btn active">Buy now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <img src="pexels-polina-guryanova-11177056.jpg" alt="" />
+            </div>
+            <div class="content row">
+              <a href="#" class="page-btn active">Buy now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <img src="pexels-designecologist-1005058.jpg" alt="" />
+            </div>
+            <div class="content row">
+              <a href="#" class="page-btn active">Buy now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <img src="205231365_l_normal_none.png" alt="" />
+            </div>
+            <div class="content row">
+              <a href="#" class="page-btn active">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="page-btn row">View all</a>
+      </div>
+    </section>
+    <!--end Plant Stand-->
+    <!--Form-->
+    <section class="form" id="contact">
+      <div class="container">
+        <form action="" class="column">
+          <input type="text" placeholder="Your name" />
+          <input type="text" placeholder="Product you want" />
+          <input type="tel" placeholder="Your contact number" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your message"
+          ></textarea>
+          <div class="row">
+            <input type="checkbox" />
+            <p>I accept all the privacy policy</p>
+          </div>
+          <button type="submit" class="page-btn">Send message</button>
+        </form>
+      </div>
+    </section>
+    <!--end form-->
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div class="footer row">
+          <div>
+            <a href="#" class="logo">Zimbali</a>
+          </div>
+          <div>
+            <h4>Menu</h4>
+            <ul class="row">
+              <li><a href="#flower">Flowers</a></li>
+              <li><a href="#plant">Plants</a></li>
+              <li><a href="#pot">Pots</a></li>
+              <li><a href="#">Fertilizers</a></li>
+              <li><a href="#contact">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="media-links row">
+            <a href="#" class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="#000"
+              >
+                <path
+                  d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="#000"
+              >
+                <path
+                  d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <p class="copy-right">&copy; 2023</p>
+      </div>
+    </footer>
+    <!--end footer-->
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
